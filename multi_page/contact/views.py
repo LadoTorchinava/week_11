@@ -7,7 +7,6 @@ def contact(request):
 
 def submit_form(request):
     if request.method == 'POST':
-        input_data = request.POST.get('input_data')
         return redirect('another_page')
     else:
         pass
